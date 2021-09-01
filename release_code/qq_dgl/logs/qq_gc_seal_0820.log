@@ -1,0 +1,608 @@
+nohup: ignoring input
+Namespace(alpha=0.005, beta=0.1, dataset='qq_gc', eta=0.01, model='seal', seed=2000)
+<class 'torch.nn.parameter.Parameter'> torch.Size([64, 64])
+<class 'torch.nn.parameter.Parameter'> torch.Size([64])
+<class 'torch.nn.parameter.Parameter'> torch.Size([64, 2])
+<class 'torch.nn.parameter.Parameter'> torch.Size([2])
+train/dev/test:  tensor(1000) tensor(26836) tensor(10000)
+[0 0 1 ... 0 1 0]
+10000 10000
+In epoch 0, loss: 0.075, hc_loss: 0.003, ic_loss: 0.072, kl loss: 0.000, val f1: 0.131 (best 0.131), test f1: 0.250 (best 0.250, M 0.465, R 0.905, P 0.145)
+[0 0 1 ... 0 1 0]
+10000 10000
+In epoch 1, loss: 0.068, hc_loss: 0.003, ic_loss: 0.064, kl loss: 0.000, val f1: 0.142 (best 0.142), test f1: 0.267 (best 0.267, M 0.492, R 0.895, P 0.157)
+[0 0 1 ... 0 1 0]
+10000 10000
+In epoch 2, loss: 0.062, hc_loss: 0.003, ic_loss: 0.059, kl loss: 0.000, val f1: 0.158 (best 0.158), test f1: 0.288 (best 0.288, M 0.523, R 0.883, P 0.172)
+[0 0 1 ... 0 1 0]
+10000 10000
+In epoch 3, loss: 0.058, hc_loss: 0.003, ic_loss: 0.055, kl loss: 0.000, val f1: 0.174 (best 0.174), test f1: 0.310 (best 0.310, M 0.553, R 0.855, P 0.190)
+[0 0 1 ... 0 1 0]
+10000 10000
+In epoch 4, loss: 0.056, hc_loss: 0.003, ic_loss: 0.052, kl loss: 0.001, val f1: 0.194 (best 0.194), test f1: 0.338 (best 0.338, M 0.583, R 0.836, P 0.212)
+[0 0 0 ... 0 1 0]
+10000 10000
+In epoch 5, loss: 0.053, hc_loss: 0.003, ic_loss: 0.048, kl loss: 0.001, val f1: 0.214 (best 0.214), test f1: 0.371 (best 0.371, M 0.614, R 0.824, P 0.239)
+[0 0 0 ... 0 1 0]
+10000 10000
+In epoch 6, loss: 0.052, hc_loss: 0.003, ic_loss: 0.046, kl loss: 0.002, val f1: 0.229 (best 0.229), test f1: 0.389 (best 0.389, M 0.630, R 0.815, P 0.255)
+[0 0 0 ... 0 1 0]
+10000 10000
+In epoch 7, loss: 0.051, hc_loss: 0.003, ic_loss: 0.045, kl loss: 0.003, val f1: 0.233 (best 0.233), test f1: 0.393 (best 0.393, M 0.634, R 0.812, P 0.259)
+[0 0 0 ... 0 1 0]
+10000 10000
+In epoch 8, loss: 0.053, hc_loss: 0.003, ic_loss: 0.047, kl loss: 0.003, val f1: 0.233 (best 0.233), test f1: 0.393 (best 0.393, M 0.634, R 0.812, P 0.259)
+[0 0 0 ... 0 1 0]
+10000 10000
+In epoch 9, loss: 0.053, hc_loss: 0.003, ic_loss: 0.046, kl loss: 0.004, val f1: 0.237 (best 0.237), test f1: 0.398 (best 0.398, M 0.638, R 0.810, P 0.264)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 10, loss: 0.051, hc_loss: 0.003, ic_loss: 0.045, kl loss: 0.004, val f1: 0.249 (best 0.249), test f1: 0.413 (best 0.413, M 0.650, R 0.804, P 0.278)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 11, loss: 0.050, hc_loss: 0.003, ic_loss: 0.043, kl loss: 0.004, val f1: 0.269 (best 0.269), test f1: 0.436 (best 0.436, M 0.668, R 0.792, P 0.301)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 12, loss: 0.049, hc_loss: 0.003, ic_loss: 0.042, kl loss: 0.004, val f1: 0.307 (best 0.307), test f1: 0.475 (best 0.475, M 0.696, R 0.779, P 0.341)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 13, loss: 0.048, hc_loss: 0.003, ic_loss: 0.041, kl loss: 0.004, val f1: 0.344 (best 0.344), test f1: 0.515 (best 0.515, M 0.723, R 0.771, P 0.387)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 14, loss: 0.049, hc_loss: 0.003, ic_loss: 0.043, kl loss: 0.003, val f1: 0.367 (best 0.367), test f1: 0.537 (best 0.537, M 0.738, R 0.764, P 0.414)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 15, loss: 0.049, hc_loss: 0.003, ic_loss: 0.043, kl loss: 0.003, val f1: 0.376 (best 0.376), test f1: 0.546 (best 0.546, M 0.743, R 0.764, P 0.424)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 16, loss: 0.048, hc_loss: 0.003, ic_loss: 0.042, kl loss: 0.003, val f1: 0.371 (best 0.376), test f1: 0.543 (best 0.546, M 0.743, R 0.764, P 0.424)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 17, loss: 0.048, hc_loss: 0.003, ic_loss: 0.042, kl loss: 0.003, val f1: 0.359 (best 0.376), test f1: 0.531 (best 0.546, M 0.743, R 0.764, P 0.424)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 18, loss: 0.049, hc_loss: 0.003, ic_loss: 0.044, kl loss: 0.002, val f1: 0.354 (best 0.376), test f1: 0.526 (best 0.546, M 0.743, R 0.764, P 0.424)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 19, loss: 0.046, hc_loss: 0.003, ic_loss: 0.041, kl loss: 0.002, val f1: 0.352 (best 0.376), test f1: 0.524 (best 0.546, M 0.743, R 0.764, P 0.424)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 20, loss: 0.051, hc_loss: 0.003, ic_loss: 0.046, kl loss: 0.002, val f1: 0.351 (best 0.376), test f1: 0.523 (best 0.546, M 0.743, R 0.764, P 0.424)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 21, loss: 0.049, hc_loss: 0.003, ic_loss: 0.044, kl loss: 0.002, val f1: 0.361 (best 0.376), test f1: 0.534 (best 0.546, M 0.743, R 0.764, P 0.424)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 22, loss: 0.049, hc_loss: 0.003, ic_loss: 0.044, kl loss: 0.002, val f1: 0.378 (best 0.378), test f1: 0.546 (best 0.546, M 0.743, R 0.773, P 0.422)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 23, loss: 0.047, hc_loss: 0.003, ic_loss: 0.042, kl loss: 0.002, val f1: 0.401 (best 0.401), test f1: 0.567 (best 0.567, M 0.756, R 0.769, P 0.449)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 24, loss: 0.047, hc_loss: 0.003, ic_loss: 0.042, kl loss: 0.002, val f1: 0.432 (best 0.432), test f1: 0.585 (best 0.585, M 0.767, R 0.760, P 0.475)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 25, loss: 0.047, hc_loss: 0.003, ic_loss: 0.041, kl loss: 0.003, val f1: 0.454 (best 0.454), test f1: 0.602 (best 0.602, M 0.778, R 0.756, P 0.500)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 26, loss: 0.046, hc_loss: 0.003, ic_loss: 0.040, kl loss: 0.003, val f1: 0.471 (best 0.471), test f1: 0.612 (best 0.612, M 0.784, R 0.754, P 0.516)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 27, loss: 0.048, hc_loss: 0.003, ic_loss: 0.042, kl loss: 0.003, val f1: 0.479 (best 0.479), test f1: 0.621 (best 0.621, M 0.789, R 0.754, P 0.527)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 28, loss: 0.047, hc_loss: 0.003, ic_loss: 0.041, kl loss: 0.003, val f1: 0.478 (best 0.479), test f1: 0.619 (best 0.621, M 0.789, R 0.754, P 0.527)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 29, loss: 0.045, hc_loss: 0.003, ic_loss: 0.038, kl loss: 0.004, val f1: 0.473 (best 0.479), test f1: 0.612 (best 0.621, M 0.789, R 0.754, P 0.527)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 30, loss: 0.048, hc_loss: 0.003, ic_loss: 0.041, kl loss: 0.004, val f1: 0.456 (best 0.479), test f1: 0.601 (best 0.621, M 0.789, R 0.754, P 0.527)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 31, loss: 0.046, hc_loss: 0.003, ic_loss: 0.039, kl loss: 0.004, val f1: 0.445 (best 0.479), test f1: 0.596 (best 0.621, M 0.789, R 0.754, P 0.527)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 32, loss: 0.049, hc_loss: 0.003, ic_loss: 0.042, kl loss: 0.004, val f1: 0.438 (best 0.479), test f1: 0.590 (best 0.621, M 0.789, R 0.754, P 0.527)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 33, loss: 0.044, hc_loss: 0.003, ic_loss: 0.037, kl loss: 0.004, val f1: 0.447 (best 0.479), test f1: 0.597 (best 0.621, M 0.789, R 0.754, P 0.527)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 34, loss: 0.045, hc_loss: 0.003, ic_loss: 0.038, kl loss: 0.004, val f1: 0.472 (best 0.479), test f1: 0.611 (best 0.621, M 0.789, R 0.754, P 0.527)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 35, loss: 0.045, hc_loss: 0.003, ic_loss: 0.038, kl loss: 0.004, val f1: 0.496 (best 0.496), test f1: 0.634 (best 0.634, M 0.796, R 0.763, P 0.542)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 36, loss: 0.047, hc_loss: 0.003, ic_loss: 0.040, kl loss: 0.004, val f1: 0.509 (best 0.509), test f1: 0.641 (best 0.641, M 0.801, R 0.757, P 0.556)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 37, loss: 0.045, hc_loss: 0.003, ic_loss: 0.038, kl loss: 0.004, val f1: 0.509 (best 0.509), test f1: 0.640 (best 0.641, M 0.801, R 0.757, P 0.556)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 38, loss: 0.044, hc_loss: 0.003, ic_loss: 0.037, kl loss: 0.004, val f1: 0.496 (best 0.509), test f1: 0.633 (best 0.641, M 0.801, R 0.757, P 0.556)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 39, loss: 0.046, hc_loss: 0.003, ic_loss: 0.039, kl loss: 0.004, val f1: 0.486 (best 0.509), test f1: 0.626 (best 0.641, M 0.801, R 0.757, P 0.556)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 40, loss: 0.043, hc_loss: 0.003, ic_loss: 0.037, kl loss: 0.004, val f1: 0.472 (best 0.509), test f1: 0.614 (best 0.641, M 0.801, R 0.757, P 0.556)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 41, loss: 0.045, hc_loss: 0.003, ic_loss: 0.038, kl loss: 0.004, val f1: 0.469 (best 0.509), test f1: 0.611 (best 0.641, M 0.801, R 0.757, P 0.556)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 42, loss: 0.043, hc_loss: 0.003, ic_loss: 0.037, kl loss: 0.004, val f1: 0.474 (best 0.509), test f1: 0.616 (best 0.641, M 0.801, R 0.757, P 0.556)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 43, loss: 0.045, hc_loss: 0.003, ic_loss: 0.039, kl loss: 0.004, val f1: 0.487 (best 0.509), test f1: 0.628 (best 0.641, M 0.801, R 0.757, P 0.556)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 44, loss: 0.043, hc_loss: 0.003, ic_loss: 0.037, kl loss: 0.004, val f1: 0.506 (best 0.509), test f1: 0.637 (best 0.641, M 0.801, R 0.757, P 0.556)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 45, loss: 0.043, hc_loss: 0.003, ic_loss: 0.037, kl loss: 0.004, val f1: 0.522 (best 0.522), test f1: 0.644 (best 0.644, M 0.803, R 0.769, P 0.554)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 46, loss: 0.046, hc_loss: 0.003, ic_loss: 0.039, kl loss: 0.004, val f1: 0.528 (best 0.528), test f1: 0.648 (best 0.648, M 0.805, R 0.769, P 0.560)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 47, loss: 0.044, hc_loss: 0.003, ic_loss: 0.037, kl loss: 0.004, val f1: 0.530 (best 0.530), test f1: 0.649 (best 0.649, M 0.805, R 0.769, P 0.561)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 48, loss: 0.046, hc_loss: 0.003, ic_loss: 0.039, kl loss: 0.004, val f1: 0.523 (best 0.530), test f1: 0.645 (best 0.649, M 0.805, R 0.769, P 0.561)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 49, loss: 0.044, hc_loss: 0.003, ic_loss: 0.037, kl loss: 0.004, val f1: 0.510 (best 0.530), test f1: 0.639 (best 0.649, M 0.805, R 0.769, P 0.561)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 50, loss: 0.045, hc_loss: 0.003, ic_loss: 0.038, kl loss: 0.004, val f1: 0.493 (best 0.530), test f1: 0.629 (best 0.649, M 0.805, R 0.769, P 0.561)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 51, loss: 0.040, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.004, val f1: 0.486 (best 0.530), test f1: 0.623 (best 0.649, M 0.805, R 0.769, P 0.561)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 52, loss: 0.045, hc_loss: 0.003, ic_loss: 0.038, kl loss: 0.004, val f1: 0.488 (best 0.530), test f1: 0.624 (best 0.649, M 0.805, R 0.769, P 0.561)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 53, loss: 0.042, hc_loss: 0.003, ic_loss: 0.036, kl loss: 0.004, val f1: 0.504 (best 0.530), test f1: 0.634 (best 0.649, M 0.805, R 0.769, P 0.561)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 54, loss: 0.042, hc_loss: 0.003, ic_loss: 0.035, kl loss: 0.004, val f1: 0.533 (best 0.533), test f1: 0.648 (best 0.648, M 0.805, R 0.775, P 0.557)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 55, loss: 0.045, hc_loss: 0.003, ic_loss: 0.038, kl loss: 0.004, val f1: 0.562 (best 0.562), test f1: 0.666 (best 0.666, M 0.816, R 0.769, P 0.588)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 56, loss: 0.042, hc_loss: 0.003, ic_loss: 0.035, kl loss: 0.004, val f1: 0.581 (best 0.581), test f1: 0.677 (best 0.677, M 0.822, R 0.764, P 0.607)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 57, loss: 0.042, hc_loss: 0.003, ic_loss: 0.036, kl loss: 0.004, val f1: 0.559 (best 0.581), test f1: 0.666 (best 0.677, M 0.822, R 0.764, P 0.607)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 58, loss: 0.041, hc_loss: 0.003, ic_loss: 0.035, kl loss: 0.004, val f1: 0.523 (best 0.581), test f1: 0.644 (best 0.677, M 0.822, R 0.764, P 0.607)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 59, loss: 0.042, hc_loss: 0.003, ic_loss: 0.035, kl loss: 0.004, val f1: 0.505 (best 0.581), test f1: 0.632 (best 0.677, M 0.822, R 0.764, P 0.607)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 60, loss: 0.041, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.004, val f1: 0.488 (best 0.581), test f1: 0.626 (best 0.677, M 0.822, R 0.764, P 0.607)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 61, loss: 0.040, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.004, val f1: 0.488 (best 0.581), test f1: 0.626 (best 0.677, M 0.822, R 0.764, P 0.607)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 62, loss: 0.041, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.004, val f1: 0.518 (best 0.581), test f1: 0.642 (best 0.677, M 0.822, R 0.764, P 0.607)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 63, loss: 0.045, hc_loss: 0.003, ic_loss: 0.038, kl loss: 0.004, val f1: 0.571 (best 0.581), test f1: 0.674 (best 0.677, M 0.822, R 0.764, P 0.607)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 64, loss: 0.044, hc_loss: 0.003, ic_loss: 0.037, kl loss: 0.004, val f1: 0.582 (best 0.582), test f1: 0.683 (best 0.683, M 0.825, R 0.774, P 0.612)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 65, loss: 0.041, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.004, val f1: 0.579 (best 0.582), test f1: 0.683 (best 0.683, M 0.825, R 0.774, P 0.612)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 66, loss: 0.042, hc_loss: 0.003, ic_loss: 0.035, kl loss: 0.004, val f1: 0.561 (best 0.582), test f1: 0.671 (best 0.683, M 0.825, R 0.774, P 0.612)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 67, loss: 0.043, hc_loss: 0.003, ic_loss: 0.037, kl loss: 0.004, val f1: 0.516 (best 0.582), test f1: 0.638 (best 0.683, M 0.825, R 0.774, P 0.612)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 68, loss: 0.039, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.004, val f1: 0.486 (best 0.582), test f1: 0.625 (best 0.683, M 0.825, R 0.774, P 0.612)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 69, loss: 0.044, hc_loss: 0.003, ic_loss: 0.037, kl loss: 0.004, val f1: 0.500 (best 0.582), test f1: 0.632 (best 0.683, M 0.825, R 0.774, P 0.612)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 70, loss: 0.043, hc_loss: 0.003, ic_loss: 0.037, kl loss: 0.004, val f1: 0.549 (best 0.582), test f1: 0.664 (best 0.683, M 0.825, R 0.774, P 0.612)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 71, loss: 0.040, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.004, val f1: 0.576 (best 0.582), test f1: 0.681 (best 0.683, M 0.825, R 0.774, P 0.612)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 72, loss: 0.045, hc_loss: 0.003, ic_loss: 0.038, kl loss: 0.004, val f1: 0.583 (best 0.583), test f1: 0.683 (best 0.683, M 0.825, R 0.771, P 0.613)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 73, loss: 0.043, hc_loss: 0.003, ic_loss: 0.036, kl loss: 0.004, val f1: 0.570 (best 0.583), test f1: 0.677 (best 0.683, M 0.825, R 0.771, P 0.613)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 74, loss: 0.040, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.004, val f1: 0.555 (best 0.583), test f1: 0.666 (best 0.683, M 0.825, R 0.771, P 0.613)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 75, loss: 0.044, hc_loss: 0.003, ic_loss: 0.037, kl loss: 0.004, val f1: 0.527 (best 0.583), test f1: 0.646 (best 0.683, M 0.825, R 0.771, P 0.613)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 76, loss: 0.042, hc_loss: 0.003, ic_loss: 0.035, kl loss: 0.004, val f1: 0.501 (best 0.583), test f1: 0.629 (best 0.683, M 0.825, R 0.771, P 0.613)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 77, loss: 0.041, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.004, val f1: 0.514 (best 0.583), test f1: 0.638 (best 0.683, M 0.825, R 0.771, P 0.613)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 78, loss: 0.040, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.004, val f1: 0.541 (best 0.583), test f1: 0.661 (best 0.683, M 0.825, R 0.771, P 0.613)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 79, loss: 0.046, hc_loss: 0.003, ic_loss: 0.038, kl loss: 0.004, val f1: 0.571 (best 0.583), test f1: 0.678 (best 0.683, M 0.825, R 0.771, P 0.613)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 80, loss: 0.042, hc_loss: 0.003, ic_loss: 0.035, kl loss: 0.004, val f1: 0.583 (best 0.583), test f1: 0.685 (best 0.683, M 0.825, R 0.771, P 0.613)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 81, loss: 0.041, hc_loss: 0.003, ic_loss: 0.035, kl loss: 0.004, val f1: 0.576 (best 0.583), test f1: 0.679 (best 0.683, M 0.825, R 0.771, P 0.613)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 82, loss: 0.040, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.004, val f1: 0.554 (best 0.583), test f1: 0.666 (best 0.683, M 0.825, R 0.771, P 0.613)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 83, loss: 0.040, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.004, val f1: 0.525 (best 0.583), test f1: 0.652 (best 0.683, M 0.825, R 0.771, P 0.613)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 84, loss: 0.040, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.004, val f1: 0.517 (best 0.583), test f1: 0.644 (best 0.683, M 0.825, R 0.771, P 0.613)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 85, loss: 0.040, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.004, val f1: 0.533 (best 0.583), test f1: 0.657 (best 0.683, M 0.825, R 0.771, P 0.613)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 86, loss: 0.040, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.004, val f1: 0.565 (best 0.583), test f1: 0.672 (best 0.683, M 0.825, R 0.771, P 0.613)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 87, loss: 0.041, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.004, val f1: 0.594 (best 0.594), test f1: 0.687 (best 0.687, M 0.827, R 0.774, P 0.617)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 88, loss: 0.038, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.004, val f1: 0.610 (best 0.610), test f1: 0.695 (best 0.695, M 0.832, R 0.769, P 0.634)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 89, loss: 0.040, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.004, val f1: 0.589 (best 0.610), test f1: 0.687 (best 0.695, M 0.832, R 0.769, P 0.634)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 90, loss: 0.042, hc_loss: 0.003, ic_loss: 0.035, kl loss: 0.004, val f1: 0.556 (best 0.610), test f1: 0.670 (best 0.695, M 0.832, R 0.769, P 0.634)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 91, loss: 0.043, hc_loss: 0.003, ic_loss: 0.036, kl loss: 0.004, val f1: 0.526 (best 0.610), test f1: 0.645 (best 0.695, M 0.832, R 0.769, P 0.634)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 92, loss: 0.040, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.004, val f1: 0.504 (best 0.610), test f1: 0.627 (best 0.695, M 0.832, R 0.769, P 0.634)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 93, loss: 0.040, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.004, val f1: 0.531 (best 0.610), test f1: 0.650 (best 0.695, M 0.832, R 0.769, P 0.634)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 94, loss: 0.040, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.004, val f1: 0.556 (best 0.610), test f1: 0.672 (best 0.695, M 0.832, R 0.769, P 0.634)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 95, loss: 0.038, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.004, val f1: 0.602 (best 0.610), test f1: 0.691 (best 0.695, M 0.832, R 0.769, P 0.634)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 96, loss: 0.037, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.004, val f1: 0.628 (best 0.628), test f1: 0.703 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 97, loss: 0.039, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.004, val f1: 0.609 (best 0.628), test f1: 0.695 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 98, loss: 0.040, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.004, val f1: 0.572 (best 0.628), test f1: 0.677 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 99, loss: 0.039, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.004, val f1: 0.533 (best 0.628), test f1: 0.648 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 100, loss: 0.038, hc_loss: 0.003, ic_loss: 0.031, kl loss: 0.004, val f1: 0.508 (best 0.628), test f1: 0.632 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 101, loss: 0.037, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.004, val f1: 0.526 (best 0.628), test f1: 0.643 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 102, loss: 0.038, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.004, val f1: 0.561 (best 0.628), test f1: 0.673 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 103, loss: 0.041, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.004, val f1: 0.595 (best 0.628), test f1: 0.690 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 104, loss: 0.040, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.004, val f1: 0.621 (best 0.628), test f1: 0.696 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 105, loss: 0.038, hc_loss: 0.003, ic_loss: 0.031, kl loss: 0.004, val f1: 0.607 (best 0.628), test f1: 0.693 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 106, loss: 0.040, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.003, val f1: 0.586 (best 0.628), test f1: 0.683 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 107, loss: 0.038, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.004, val f1: 0.558 (best 0.628), test f1: 0.668 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 108, loss: 0.039, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.004, val f1: 0.538 (best 0.628), test f1: 0.648 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 109, loss: 0.042, hc_loss: 0.003, ic_loss: 0.035, kl loss: 0.004, val f1: 0.528 (best 0.628), test f1: 0.643 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 110, loss: 0.040, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.004, val f1: 0.550 (best 0.628), test f1: 0.662 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 111, loss: 0.038, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.004, val f1: 0.572 (best 0.628), test f1: 0.677 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 112, loss: 0.036, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.004, val f1: 0.595 (best 0.628), test f1: 0.688 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 113, loss: 0.040, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.004, val f1: 0.607 (best 0.628), test f1: 0.691 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 114, loss: 0.037, hc_loss: 0.003, ic_loss: 0.031, kl loss: 0.004, val f1: 0.596 (best 0.628), test f1: 0.688 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 115, loss: 0.036, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.004, val f1: 0.568 (best 0.628), test f1: 0.673 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 116, loss: 0.037, hc_loss: 0.003, ic_loss: 0.031, kl loss: 0.004, val f1: 0.547 (best 0.628), test f1: 0.657 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 117, loss: 0.040, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.004, val f1: 0.551 (best 0.628), test f1: 0.659 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 118, loss: 0.036, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.004, val f1: 0.561 (best 0.628), test f1: 0.667 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 119, loss: 0.040, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.004, val f1: 0.586 (best 0.628), test f1: 0.682 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 120, loss: 0.039, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.003, val f1: 0.602 (best 0.628), test f1: 0.692 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 121, loss: 0.038, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.004, val f1: 0.601 (best 0.628), test f1: 0.691 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 122, loss: 0.039, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.004, val f1: 0.595 (best 0.628), test f1: 0.689 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 123, loss: 0.038, hc_loss: 0.003, ic_loss: 0.031, kl loss: 0.004, val f1: 0.587 (best 0.628), test f1: 0.682 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 124, loss: 0.039, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.004, val f1: 0.574 (best 0.628), test f1: 0.674 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 125, loss: 0.038, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.003, val f1: 0.565 (best 0.628), test f1: 0.669 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 126, loss: 0.040, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.003, val f1: 0.561 (best 0.628), test f1: 0.666 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 127, loss: 0.038, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.003, val f1: 0.566 (best 0.628), test f1: 0.668 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 128, loss: 0.037, hc_loss: 0.003, ic_loss: 0.031, kl loss: 0.003, val f1: 0.569 (best 0.628), test f1: 0.669 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 129, loss: 0.037, hc_loss: 0.003, ic_loss: 0.031, kl loss: 0.004, val f1: 0.579 (best 0.628), test f1: 0.676 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 130, loss: 0.039, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.004, val f1: 0.585 (best 0.628), test f1: 0.679 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 131, loss: 0.038, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.004, val f1: 0.586 (best 0.628), test f1: 0.679 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 132, loss: 0.035, hc_loss: 0.003, ic_loss: 0.028, kl loss: 0.004, val f1: 0.584 (best 0.628), test f1: 0.679 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 133, loss: 0.039, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.004, val f1: 0.578 (best 0.628), test f1: 0.677 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 134, loss: 0.040, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.004, val f1: 0.569 (best 0.628), test f1: 0.670 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 135, loss: 0.040, hc_loss: 0.003, ic_loss: 0.034, kl loss: 0.003, val f1: 0.570 (best 0.628), test f1: 0.671 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 136, loss: 0.036, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.003, val f1: 0.556 (best 0.628), test f1: 0.660 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 137, loss: 0.039, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.003, val f1: 0.556 (best 0.628), test f1: 0.661 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 138, loss: 0.037, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.004, val f1: 0.565 (best 0.628), test f1: 0.667 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 139, loss: 0.038, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.004, val f1: 0.583 (best 0.628), test f1: 0.677 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 140, loss: 0.036, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.004, val f1: 0.599 (best 0.628), test f1: 0.687 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 141, loss: 0.039, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.004, val f1: 0.611 (best 0.628), test f1: 0.692 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 142, loss: 0.036, hc_loss: 0.003, ic_loss: 0.029, kl loss: 0.004, val f1: 0.595 (best 0.628), test f1: 0.685 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 143, loss: 0.038, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.003, val f1: 0.569 (best 0.628), test f1: 0.668 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 144, loss: 0.037, hc_loss: 0.003, ic_loss: 0.031, kl loss: 0.003, val f1: 0.539 (best 0.628), test f1: 0.650 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 145, loss: 0.037, hc_loss: 0.003, ic_loss: 0.031, kl loss: 0.003, val f1: 0.522 (best 0.628), test f1: 0.638 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 146, loss: 0.036, hc_loss: 0.003, ic_loss: 0.029, kl loss: 0.004, val f1: 0.570 (best 0.628), test f1: 0.669 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 147, loss: 0.035, hc_loss: 0.003, ic_loss: 0.029, kl loss: 0.004, val f1: 0.612 (best 0.628), test f1: 0.695 (best 0.703, M 0.837, R 0.773, P 0.645)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 148, loss: 0.040, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.004, val f1: 0.631 (best 0.631), test f1: 0.707 (best 0.707, M 0.839, R 0.787, P 0.642)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 149, loss: 0.039, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.004, val f1: 0.631 (best 0.631), test f1: 0.708 (best 0.708, M 0.839, R 0.787, P 0.642)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 150, loss: 0.036, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.004, val f1: 0.598 (best 0.631), test f1: 0.686 (best 0.708, M 0.839, R 0.787, P 0.642)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 151, loss: 0.039, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.003, val f1: 0.522 (best 0.631), test f1: 0.636 (best 0.708, M 0.839, R 0.787, P 0.642)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 152, loss: 0.039, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.003, val f1: 0.472 (best 0.631), test f1: 0.604 (best 0.708, M 0.839, R 0.787, P 0.642)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 153, loss: 0.036, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.003, val f1: 0.482 (best 0.631), test f1: 0.611 (best 0.708, M 0.839, R 0.787, P 0.642)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 154, loss: 0.042, hc_loss: 0.003, ic_loss: 0.035, kl loss: 0.003, val f1: 0.530 (best 0.631), test f1: 0.642 (best 0.708, M 0.839, R 0.787, P 0.642)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 155, loss: 0.038, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.004, val f1: 0.603 (best 0.631), test f1: 0.689 (best 0.708, M 0.839, R 0.787, P 0.642)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 156, loss: 0.037, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.004, val f1: 0.649 (best 0.649), test f1: 0.714 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 157, loss: 0.036, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.004, val f1: 0.647 (best 0.649), test f1: 0.713 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 158, loss: 0.036, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.004, val f1: 0.594 (best 0.649), test f1: 0.684 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 159, loss: 0.038, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.003, val f1: 0.517 (best 0.649), test f1: 0.634 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 1 0]
+10000 10000
+In epoch 160, loss: 0.037, hc_loss: 0.003, ic_loss: 0.031, kl loss: 0.003, val f1: 0.463 (best 0.649), test f1: 0.597 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 1 0]
+10000 10000
+In epoch 161, loss: 0.035, hc_loss: 0.003, ic_loss: 0.029, kl loss: 0.003, val f1: 0.468 (best 0.649), test f1: 0.602 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 162, loss: 0.036, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.003, val f1: 0.531 (best 0.649), test f1: 0.639 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 163, loss: 0.039, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.004, val f1: 0.583 (best 0.649), test f1: 0.677 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 164, loss: 0.036, hc_loss: 0.003, ic_loss: 0.029, kl loss: 0.004, val f1: 0.632 (best 0.649), test f1: 0.701 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 165, loss: 0.034, hc_loss: 0.003, ic_loss: 0.028, kl loss: 0.004, val f1: 0.644 (best 0.649), test f1: 0.711 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 166, loss: 0.037, hc_loss: 0.003, ic_loss: 0.031, kl loss: 0.004, val f1: 0.632 (best 0.649), test f1: 0.703 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 167, loss: 0.036, hc_loss: 0.003, ic_loss: 0.029, kl loss: 0.004, val f1: 0.590 (best 0.649), test f1: 0.682 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 168, loss: 0.039, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.003, val f1: 0.545 (best 0.649), test f1: 0.658 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 169, loss: 0.037, hc_loss: 0.003, ic_loss: 0.031, kl loss: 0.003, val f1: 0.527 (best 0.649), test f1: 0.641 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+Using backend: pytorch
+In epoch 170, loss: 0.036, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.003, val f1: 0.541 (best 0.649), test f1: 0.653 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 171, loss: 0.037, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.004, val f1: 0.576 (best 0.649), test f1: 0.672 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 172, loss: 0.036, hc_loss: 0.003, ic_loss: 0.029, kl loss: 0.004, val f1: 0.607 (best 0.649), test f1: 0.690 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 173, loss: 0.034, hc_loss: 0.003, ic_loss: 0.027, kl loss: 0.004, val f1: 0.619 (best 0.649), test f1: 0.697 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 174, loss: 0.034, hc_loss: 0.003, ic_loss: 0.027, kl loss: 0.004, val f1: 0.621 (best 0.649), test f1: 0.699 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 175, loss: 0.034, hc_loss: 0.003, ic_loss: 0.027, kl loss: 0.004, val f1: 0.612 (best 0.649), test f1: 0.695 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 176, loss: 0.038, hc_loss: 0.003, ic_loss: 0.031, kl loss: 0.004, val f1: 0.597 (best 0.649), test f1: 0.684 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 177, loss: 0.030, hc_loss: 0.003, ic_loss: 0.024, kl loss: 0.004, val f1: 0.567 (best 0.649), test f1: 0.666 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 178, loss: 0.035, hc_loss: 0.003, ic_loss: 0.029, kl loss: 0.003, val f1: 0.555 (best 0.649), test f1: 0.659 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 179, loss: 0.039, hc_loss: 0.003, ic_loss: 0.033, kl loss: 0.003, val f1: 0.550 (best 0.649), test f1: 0.655 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 180, loss: 0.034, hc_loss: 0.003, ic_loss: 0.028, kl loss: 0.004, val f1: 0.561 (best 0.649), test f1: 0.664 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 181, loss: 0.037, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.004, val f1: 0.585 (best 0.649), test f1: 0.677 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 182, loss: 0.036, hc_loss: 0.003, ic_loss: 0.029, kl loss: 0.004, val f1: 0.607 (best 0.649), test f1: 0.689 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 183, loss: 0.037, hc_loss: 0.003, ic_loss: 0.029, kl loss: 0.005, val f1: 0.618 (best 0.649), test f1: 0.698 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 184, loss: 0.037, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.004, val f1: 0.616 (best 0.649), test f1: 0.696 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 185, loss: 0.036, hc_loss: 0.003, ic_loss: 0.029, kl loss: 0.004, val f1: 0.585 (best 0.649), test f1: 0.677 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 186, loss: 0.036, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.004, val f1: 0.554 (best 0.649), test f1: 0.658 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 187, loss: 0.035, hc_loss: 0.003, ic_loss: 0.029, kl loss: 0.003, val f1: 0.545 (best 0.649), test f1: 0.648 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 188, loss: 0.037, hc_loss: 0.003, ic_loss: 0.031, kl loss: 0.003, val f1: 0.563 (best 0.649), test f1: 0.666 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 189, loss: 0.039, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.004, val f1: 0.609 (best 0.649), test f1: 0.692 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 190, loss: 0.035, hc_loss: 0.003, ic_loss: 0.028, kl loss: 0.004, val f1: 0.636 (best 0.649), test f1: 0.708 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 191, loss: 0.039, hc_loss: 0.003, ic_loss: 0.032, kl loss: 0.004, val f1: 0.645 (best 0.649), test f1: 0.712 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 192, loss: 0.037, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.004, val f1: 0.627 (best 0.649), test f1: 0.705 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 193, loss: 0.036, hc_loss: 0.003, ic_loss: 0.029, kl loss: 0.004, val f1: 0.581 (best 0.649), test f1: 0.677 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 194, loss: 0.035, hc_loss: 0.003, ic_loss: 0.029, kl loss: 0.004, val f1: 0.548 (best 0.649), test f1: 0.651 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 195, loss: 0.037, hc_loss: 0.003, ic_loss: 0.030, kl loss: 0.004, val f1: 0.543 (best 0.649), test f1: 0.648 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 196, loss: 0.036, hc_loss: 0.003, ic_loss: 0.029, kl loss: 0.004, val f1: 0.567 (best 0.649), test f1: 0.671 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 197, loss: 0.035, hc_loss: 0.003, ic_loss: 0.029, kl loss: 0.004, val f1: 0.619 (best 0.649), test f1: 0.698 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 198, loss: 0.033, hc_loss: 0.003, ic_loss: 0.027, kl loss: 0.004, val f1: 0.646 (best 0.649), test f1: 0.712 (best 0.714, M 0.843, R 0.774, P 0.663)
+[0 0 0 ... 0 0 0]
+10000 10000
+In epoch 199, loss: 0.034, hc_loss: 0.003, ic_loss: 0.028, kl loss: 0.004, val f1: 0.645 (best 0.649), test f1: 0.711 (best 0.714, M 0.843, R 0.774, P 0.663)

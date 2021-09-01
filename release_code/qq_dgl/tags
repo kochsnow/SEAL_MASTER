@@ -1,0 +1,304 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ArgumentParser	qq/preprocess.py	/^from argparse import ArgumentParser $/;"	i
+ArgumentParser	train.py	/^from argparse import ArgumentParser $/;"	i
+ArgumentParser	train_ci.py	/^from argparse import ArgumentParser $/;"	i
+ArgumentParser	train_miracle.py	/^from argparse import ArgumentParser $/;"	i
+Counter	trainer.py	/^from collections import Counter$/;"	i
+Data	generator.py	/^from torch_geometric.data import Data $/;"	i
+Dataset	create_basis.py	/^from dataset import Dataset$/;"	i
+Dataset	dataset.py	/^class Dataset:$/;"	c
+Dataset	train.py	/^from dataset import Dataset$/;"	i
+Dataset	train_ci.py	/^from dataset import Dataset$/;"	i
+Dataset	train_miracle.py	/^from dataset import Dataset$/;"	i
+EdgeWeightNorm	model.py	/^from dgl.nn import GraphConv, EdgeWeightNorm$/;"	i
+F	gnn.py	/^import torch.nn.functional as F $/;"	i
+F	infomax.py	/^import torch.nn.functional as F$/;"	i
+F	model.py	/^import torch.nn.functional as F$/;"	i
+F	qq/preprocess.py	/^import torch.nn.functional as F$/;"	i
+F	train.py	/^import torch.nn.functional as F$/;"	i
+F	train_ci.py	/^import torch.nn.functional as F$/;"	i
+F	train_miracle.py	/^import torch.nn.functional as F$/;"	i
+FF_global	infomax.py	/^class FF_global(torch.nn.Module):$/;"	c
+FF_local	infomax.py	/^class FF_local(torch.nn.Module):$/;"	c
+FraudAmazonDataset	dataset.py	/^from dgl.data import FraudYelpDataset, FraudAmazonDataset$/;"	i
+FraudYelpDataset	dataset.py	/^from dgl.data import FraudYelpDataset, FraudAmazonDataset$/;"	i
+GCN	model.py	/^class GCN(nn.Module):$/;"	c
+GCNConv	gnn.py	/^from torch_geometric.nn import GCNConv $/;"	i
+GWNN	model.py	/^class GWNN(nn.Module):$/;"	c
+GWNN2	model.py	/^class GWNN2(nn.Module):$/;"	c
+GcnInfoMax	infomax.py	/^class GcnInfoMax(torch.nn.Module):$/;"	c
+GcnInfoMax	train.py	/^from infomax import GcnInfoMax $/;"	i
+GcnInfoMax	train_ci.py	/^from infomax import GcnInfoMax $/;"	i
+GcnInfoMax	train_miracle.py	/^from infomax import GcnInfoMax $/;"	i
+GraphConv	model.py	/^from dgl.nn import GraphConv, EdgeWeightNorm$/;"	i
+GraphConv	qq/preprocess.py	/^from dgl.nn import GraphConv$/;"	i
+GraphDatasetGenerator	generator.py	/^class GraphDatasetGenerator(object):$/;"	c
+HierGCN	train.py	/^class HierGCN(torch.nn.Module):$/;"	c
+HierGCN	train_ci.py	/^class HierGCN(torch.nn.Module):$/;"	c
+HierarchicalGNN	train_miracle.py	/^class HierarchicalGNN(nn.Module):$/;"	c
+MLP	model.py	/^class MLP(nn.Module):$/;"	c
+MacroGCN	gnn.py	/^class MacroGCN(torch.nn.Module):$/;"	c
+SAGE	gnn.py	/^class SAGE(torch.nn.Module):$/;"	c
+SAGE	miracle.py	/^from gnn import SAGE, SuperMacroGCN $/;"	i
+SEAL	miracle.py	/^class SEAL(torch.nn.Module):$/;"	c
+SEALCITrainer	trainer.py	/^class SEALCITrainer(object):$/;"	c
+SuperMacroGCN	gnn.py	/^class SuperMacroGCN(torch.nn.Module):$/;"	c
+SuperMacroGCN	miracle.py	/^from gnn import SAGE, SuperMacroGCN $/;"	i
+Texttable	utils.py	/^from texttable import Texttable $/;"	i
+__init__	dataset.py	/^    def __init__(self, name='qq'): # qq, amazon, yelp  binary classify$/;"	m	class:Dataset
+__init__	generator.py	/^    def __init__(self, path, device):$/;"	m	class:GraphDatasetGenerator
+__init__	gnn.py	/^    def __init__(self, args, number_of_features, number_of_labels):$/;"	m	class:MacroGCN
+__init__	gnn.py	/^    def __init__(self, args, number_of_features, number_of_labels):$/;"	m	class:SAGE
+__init__	gnn.py	/^    def __init__(self, in_channels, hidden_channels, out_channels, num_layers=3, $/;"	m	class:SuperMacroGCN
+__init__	infomax.py	/^    def __init__(self, gamma, prior, features_dim, embedding_dim, device):$/;"	m	class:GcnInfoMax
+__init__	infomax.py	/^    def __init__(self, input_dim):$/;"	m	class:FF_global
+__init__	infomax.py	/^    def __init__(self, input_dim):$/;"	m	class:FF_local
+__init__	infomax.py	/^    def __init__(self, input_dim_1, input_dim_2):$/;"	m	class:shortcut
+__init__	miracle.py	/^    def __init__(self, args, number_of_features, number_of_labels, device):$/;"	m	class:SEAL
+__init__	model.py	/^    def __init__(self, in_feats, h_feats, num_classes, glist):$/;"	m	class:GCN
+__init__	model.py	/^    def __init__(self, in_feats, h_feats, num_classes, glist):$/;"	m	class:GWNN
+__init__	model.py	/^    def __init__(self, in_feats, h_feats, num_classes, glist):$/;"	m	class:GWNN2
+__init__	model.py	/^    def __init__(self, in_feats, h_feats, num_classes, glist=None):$/;"	m	class:MLP
+__init__	train.py	/^    def __init__(self, in_feats, h_feats, num_classes, glist):$/;"	m	class:HierGCN
+__init__	train_ci.py	/^    def __init__(self, in_feats, h_feats, num_classes, glist):$/;"	m	class:HierGCN
+__init__	train_miracle.py	/^    def __init__(self, in_feats, h_feats, num_classes, glist):$/;"	m	class:HierarchicalGNN
+__init__	trainer.py	/^    def __init__(self, args, dataset_generator, model, dgi_model, device):$/;"	m	class:SEALCITrainer
+_choose_best_candidate	trainer.py	/^    def _choose_best_candidate(self, predictions, indices):$/;"	m	class:SEALCITrainer
+_concatenate_name	generator.py	/^    def _concatenate_name(self, index):$/;"	m	class:GraphDatasetGenerator
+_count_features_and_labels	generator.py	/^    def _count_features_and_labels(self):$/;"	m	class:GraphDatasetGenerator
+_create_dataset	generator.py	/^    def _create_dataset(self):$/;"	m	class:GraphDatasetGenerator
+_create_labeled_target	trainer.py	/^    def _create_labeled_target(self):$/;"	m	class:SEALCITrainer
+_create_node_indices	trainer.py	/^    def _create_node_indices(self):$/;"	m	class:SEALCITrainer
+_create_split	trainer.py	/^    def _create_split(self):$/;"	m	class:SEALCITrainer
+_create_target	generator.py	/^    def _create_target(self):$/;"	m	class:GraphDatasetGenerator
+_data_transform	generator.py	/^    def _data_transform(self, raw_data):$/;"	m	class:GraphDatasetGenerator
+_enumerate_graphs	generator.py	/^    def _enumerate_graphs(self):$/;"	m	class:GraphDatasetGenerator
+_setup	gnn.py	/^    def _setup(self):$/;"	m	class:MacroGCN
+_setup	gnn.py	/^    def _setup(self):$/;"	m	class:SAGE
+_setup	miracle.py	/^    def _setup(self):$/;"	m	class:SEAL
+_setup_macro_graph	trainer.py	/^    def _setup_macro_graph(self):$/;"	m	class:SEALCITrainer
+_transform_edges	generator.py	/^    def _transform_edges(self, raw_data):$/;"	m	class:GraphDatasetGenerator
+_transform_features	generator.py	/^    def _transform_features(self, raw_data):$/;"	m	class:GraphDatasetGenerator
+_update_target	trainer.py	/^    def _update_target(self, candidate, label):$/;"	m	class:SEALCITrainer
+adjust_learning_rate	trainer.py	/^from utils import hierarchical_graph_reader, adjust_learning_rate $/;"	i
+adjust_learning_rate	utils.py	/^def adjust_learning_rate(optimizer, epoch, init_lr):$/;"	f
+args	qq/preprocess.py	/^args = parse_args()$/;"	v
+args	train.py	/^args = parse_args()$/;"	v
+args	train_ci.py	/^args = parse_args()$/;"	v
+args	train_miracle.py	/^args = parse_args()$/;"	v
+cal_f1	train.py	/^def cal_f1(outputs, labels, masks):$/;"	f
+cal_f1	train_ci.py	/^def cal_f1(outputs, labels, masks):$/;"	f
+cal_f1	train_miracle.py	/^def cal_f1(outputs, labels, masks):$/;"	f
+ci_mask	train_ci.py	/^def ci_mask(model, train_mask, val_mask, features):$/;"	f
+cl_model	train.py	/^    cl_model = GcnInfoMax(gamma, prior, in_feats, h_feats, device=device)$/;"	v
+cl_model	train_ci.py	/^    cl_model = GcnInfoMax(gamma, prior, in_feats, h_feats, device=device)$/;"	v
+create_basis	create_basis.py	/^def create_basis():$/;"	f
+csr_matrix	qq/process.py	/^from scipy.sparse import csr_matrix$/;"	i
+dataset_name	train.py	/^dataset_name = args.dataset $/;"	v
+dataset_name	train_ci.py	/^dataset_name = args.dataset $/;"	v
+dataset_name	train_miracle.py	/^dataset_name = args.dataset $/;"	v
+device	train.py	/^device = torch.device("cuda:6" if torch.cuda.is_available() else "cpu")$/;"	v
+device	train_ci.py	/^device = torch.device("cuda:6" if torch.cuda.is_available() else "cpu")$/;"	v
+dgl	create_wavelet.py	/^import dgl$/;"	i
+dgl	dataset.py	/^import dgl$/;"	i
+dgl	model.py	/^import dgl$/;"	i
+dgl	model.py	/^import dgl.function as fn$/;"	i
+dgl	qq/preprocess.py	/^import dgl$/;"	i
+dgl	train.py	/^import dgl$/;"	i
+dgl	train_ci.py	/^import dgl$/;"	i
+dgl	train_miracle.py	/^import dgl$/;"	i
+f1_score	train.py	/^from sklearn.metrics import f1_score$/;"	i
+f1_score	train_ci.py	/^from sklearn.metrics import f1_score$/;"	i
+f1_score	train_miracle.py	/^from sklearn.metrics import f1_score$/;"	i
+features	qq/preprocess.py	/^    features = np.load("norm_x.npy")$/;"	v
+features	qq/preprocess.py	/^    features = np.load("norm_x_gc.npy")$/;"	v
+fit	trainer.py	/^    def fit(self):$/;"	m	class:SEALCITrainer
+fit_a_single_model	trainer.py	/^    def fit_a_single_model(self):$/;"	m	class:SEALCITrainer
+fn	model.py	/^import dgl.function as fn$/;"	i
+forward	gnn.py	/^    def forward(self, data):$/;"	m	class:SAGE
+forward	gnn.py	/^    def forward(self, features, edges):$/;"	m	class:MacroGCN
+forward	gnn.py	/^    def forward(self, x, adj_t):$/;"	m	class:SuperMacroGCN
+forward	infomax.py	/^    def forward(self, global_embeddings, loc_embeddings, adj_tensor, num_drugs):$/;"	m	class:GcnInfoMax
+forward	infomax.py	/^    def forward(self, x):$/;"	m	class:FF_global
+forward	infomax.py	/^    def forward(self, x):$/;"	m	class:FF_local
+forward	infomax.py	/^    def forward(self, x1, x2):$/;"	m	class:shortcut
+forward	miracle.py	/^    def forward(self, graphs, macro_edges):$/;"	m	class:SEAL
+forward	model.py	/^    def forward(self, in_feat):$/;"	m	class:GWNN
+forward	model.py	/^    def forward(self, in_feat):$/;"	m	class:GWNN2
+forward	model.py	/^    def forward(self, in_feat):$/;"	m	class:MLP
+forward	model.py	/^    def forward(self, in_feat, return_emb=False):$/;"	m	class:GCN
+forward	train.py	/^    def forward(self, features):$/;"	m	class:HierGCN
+forward	train_ci.py	/^    def forward(self, features):$/;"	m	class:HierGCN
+forward	train_miracle.py	/^    def forward(self, features):$/;"	m	class:HierarchicalGNN
+g	qq/preprocess.py	/^g = dgl.from_networkx(nxgraph)$/;"	v
+g	train.py	/^g = Dataset(dataset_name).graph$/;"	v
+g	train_ci.py	/^g = Dataset(dataset_name).graph$/;"	v
+g	train_miracle.py	/^g = Dataset(dataset_name).graph$/;"	v
+gamma	train.py	/^    gamma = 0.1 $/;"	v
+gamma	train_ci.py	/^    gamma = 0.1 $/;"	v
+gamma	train_miracle.py	/^gamma = 0.1 $/;"	v
+get_negative_expectation	infomax.py	/^def get_negative_expectation(q_samples, measure, average=True):$/;"	f
+get_positive_expectation	infomax.py	/^def get_positive_expectation(p_samples, measure, average=True):$/;"	f
+glob	generator.py	/^import glob $/;"	i
+global_mean_pool	gnn.py	/^from torch_geometric.nn import global_mean_pool$/;"	i
+graph	qq/preprocess.py	/^    graph = pkl.load(f)$/;"	v
+graph_embedding	model.py	/^    def graph_embedding(self, in_feat):$/;"	m	class:GCN
+graph_level_reader	generator.py	/^from utils import graph_level_reader$/;"	i
+graph_level_reader	utils.py	/^def graph_level_reader(path):$/;"	f
+h_feats	train.py	/^h_feats = 64$/;"	v
+h_feats	train_ci.py	/^h_feats = 64$/;"	v
+h_feats	train_miracle.py	/^h_feats = 64$/;"	v
+hierarchical_graph_reader	trainer.py	/^from utils import hierarchical_graph_reader, adjust_learning_rate $/;"	i
+hierarchical_graph_reader	utils.py	/^def hierarchical_graph_reader(path):$/;"	f
+in_feats	train.py	/^in_feats = g.ndata['feature'].shape[1]$/;"	v
+in_feats	train_ci.py	/^in_feats = g.ndata['feature'].shape[1]$/;"	v
+in_feats	train_miracle.py	/^in_feats = g.ndata['feature'].shape[1]$/;"	v
+json	generator.py	/^import json $/;"	i
+json	infomax.py	/^import json$/;"	i
+json	utils.py	/^import json $/;"	i
+labels	qq/preprocess.py	/^    labels = pkl.load(f)$/;"	v
+laplacian	create_basis.py	/^def laplacian(W, normalized=True):$/;"	f
+load_graphs	dataset.py	/^from dgl.data.utils import load_graphs, save_graphs$/;"	i
+load_graphs	qq/preprocess.py	/^from dgl.data.utils import load_graphs, save_graphs$/;"	i
+load_graphs	train.py	/^from dgl.data.utils import load_graphs, save_graphs$/;"	i
+load_graphs	train_ci.py	/^from dgl.data.utils import load_graphs, save_graphs$/;"	i
+load_graphs	train_miracle.py	/^from dgl.data.utils import load_graphs, save_graphs$/;"	i
+local_global_drug_loss_	infomax.py	/^def local_global_drug_loss_(l_enc, g_enc, adj_tensor, num_drugs, measure, device):$/;"	f
+make_dataset1	qq/process.py	/^def make_dataset1():$/;"	f
+make_dataset2	qq/process.py	/^def make_dataset2():$/;"	f
+math	create_wavelet.py	/^import math$/;"	i
+math	infomax.py	/^import math $/;"	i
+math	model.py	/^import math$/;"	i
+model	train.py	/^    model = HierGCN(in_feats, h_feats, num_classes, [g])$/;"	v
+model	train_ci.py	/^    model = HierGCN(in_feats, h_feats, num_classes, [g])$/;"	v
+model	train_miracle.py	/^    model = GCN(in_feats, h_feats, num_classes, [g])$/;"	v	class:HierarchicalGNN
+model	train_miracle.py	/^    model = HierarchicalGNN(in_feats, h_feats, num_classes, [g])$/;"	v
+nn	gnn.py	/^import torch.nn.functional as F $/;"	i
+nn	infomax.py	/^import torch.nn as nn$/;"	i
+nn	infomax.py	/^import torch.nn.functional as F$/;"	i
+nn	model.py	/^import torch.nn as nn$/;"	i
+nn	model.py	/^import torch.nn.functional as F$/;"	i
+nn	qq/preprocess.py	/^import torch.nn as nn$/;"	i
+nn	qq/preprocess.py	/^import torch.nn.functional as F$/;"	i
+nn	train.py	/^import torch.nn as nn$/;"	i
+nn	train.py	/^import torch.nn.functional as F$/;"	i
+nn	train_ci.py	/^import torch.nn as nn$/;"	i
+nn	train_ci.py	/^import torch.nn.functional as F$/;"	i
+nn	train_miracle.py	/^import torch.nn as nn$/;"	i
+nn	train_miracle.py	/^import torch.nn.functional as F$/;"	i
+normal_GWNN_basis	create_wavelet.py	/^def normal_GWNN_basis():$/;"	f
+np	create_basis.py	/^import numpy as np$/;"	i
+np	create_wavelet.py	/^import numpy as np$/;"	i
+np	generator.py	/^import numpy as np $/;"	i
+np	qq/preprocess.py	/^import numpy as np$/;"	i
+np	qq/process.py	/^import numpy as np$/;"	i
+np	train.py	/^import numpy as np$/;"	i
+np	train_ci.py	/^import numpy as np$/;"	i
+np	train_miracle.py	/^import numpy as np$/;"	i
+num_classes	train.py	/^num_classes = 2$/;"	v
+num_classes	train_ci.py	/^num_classes = 2$/;"	v
+num_classes	train_miracle.py	/^num_classes = 2$/;"	v
+num_nodes	train.py	/^num_nodes = g.ndata["feature"].shape[0]$/;"	v
+num_nodes	train_ci.py	/^num_nodes = g.ndata["feature"].shape[0]$/;"	v
+numpy	train.py	/^import numpy$/;"	i
+numpy	train_ci.py	/^import numpy$/;"	i
+numpy	train_miracle.py	/^import numpy$/;"	i
+nx	create_basis.py	/^import networkx as nx$/;"	i
+nx	qq/preprocess.py	/^import networkx as nx$/;"	i
+nx	utils.py	/^import networkx as nx $/;"	i
+nxgraph	qq/preprocess.py	/^    nxgraph = nx.from_dict_of_lists(graph)$/;"	v
+os	infomax.py	/^import os.path as osp$/;"	i
+os	train.py	/^import os $/;"	i
+os	train_ci.py	/^import os $/;"	i
+osp	infomax.py	/^import os.path as osp$/;"	i
+our_GWNN_basis	create_wavelet.py	/^def our_GWNN_basis(dataset='amazon'):$/;"	f
+our_GWNN_basis2	create_wavelet.py	/^def our_GWNN_basis2(dataset='amazon'):$/;"	f
+parse_args	qq/preprocess.py	/^def parse_args():$/;"	f
+parse_args	train.py	/^def parse_args():$/;"	f
+parse_args	train_ci.py	/^def parse_args():$/;"	f
+parse_args	train_miracle.py	/^def parse_args():$/;"	f
+pd	utils.py	/^import pandas as pd $/;"	i
+pdb	infomax.py	/^import pdb $/;"	i
+pdb	qq/preprocess.py	/^import pdb$/;"	i
+pdb	train.py	/^import pdb$/;"	i
+pdb	train_ci.py	/^import pdb$/;"	i
+pickle	create_basis.py	/^import pickle$/;"	i
+pickle	qq/process.py	/^import pickle$/;"	i
+pkl	qq/preprocess.py	/^import pickle as pkl$/;"	i
+precision_recall_fscore_support	trainer.py	/^from sklearn.metrics import precision_recall_fscore_support$/;"	i
+prior	train.py	/^    prior = 0 $/;"	v
+prior	train_ci.py	/^    prior = 0 $/;"	v
+prior	train_miracle.py	/^prior = True $/;"	v
+random	qq/preprocess.py	/^import random$/;"	i
+random	train.py	/^import random $/;"	i
+random	train.py	/^import random$/;"	i
+random	train_ci.py	/^import random $/;"	i
+random	train_ci.py	/^import random$/;"	i
+random	train_miracle.py	/^import random$/;"	i
+random	trainer.py	/^import random$/;"	i
+reset_parameters	gnn.py	/^    def reset_parameters(self):$/;"	m	class:SuperMacroGCN
+sample_mask	qq/preprocess.py	/^def sample_mask(idx, l):$/;"	f
+save_graphs	dataset.py	/^from dgl.data.utils import load_graphs, save_graphs$/;"	i
+save_graphs	qq/preprocess.py	/^from dgl.data.utils import load_graphs, save_graphs$/;"	i
+save_graphs	train.py	/^from dgl.data.utils import load_graphs, save_graphs$/;"	i
+save_graphs	train_ci.py	/^from dgl.data.utils import load_graphs, save_graphs$/;"	i
+save_graphs	train_miracle.py	/^from dgl.data.utils import load_graphs, save_graphs$/;"	i
+scipy	create_basis.py	/^import scipy$/;"	i
+scipy	create_wavelet.py	/^import scipy.sparse as sp$/;"	i
+score	trainer.py	/^    def score(self):$/;"	m	class:SEALCITrainer
+score_a_single_model	trainer.py	/^    def score_a_single_model(self, mode = 0, use_ic = False):$/;"	m	class:SEALCITrainer
+seed_everything	train.py	/^def seed_everything(seed):$/;"	f
+seed_everything	train_ci.py	/^def seed_everything(seed):$/;"	f
+shortcut	infomax.py	/^class shortcut(nn.Module):$/;"	c
+sort	create_basis.py	/^def sort(lamb, U):$/;"	f
+sp	create_wavelet.py	/^import scipy.sparse as sp$/;"	i
+study_L	create_basis.py	/^def study_L():$/;"	f
+tab_printer	utils.py	/^def tab_printer(args):$/;"	f
+test_id	qq/preprocess.py	/^test_id = list(range(len(labels)))[-10000:]$/;"	v
+tmp_id	qq/preprocess.py	/^tmp_id = list(range(len(labels)))[:-10000]$/;"	v
+to_dense_adj	infomax.py	/^from torch_geometric.utils import to_dense_batch, to_dense_adj$/;"	i
+to_dense_adj	trainer.py	/^from torch_geometric.utils import to_dense_batch, to_dense_adj$/;"	i
+to_dense_batch	infomax.py	/^from torch_geometric.utils import to_dense_batch, to_dense_adj$/;"	i
+to_dense_batch	trainer.py	/^from torch_geometric.utils import to_dense_batch, to_dense_adj$/;"	i
+torch	generator.py	/^import torch $/;"	i
+torch	gnn.py	/^import torch $/;"	i
+torch	gnn.py	/^import torch.nn.functional as F $/;"	i
+torch	infomax.py	/^import torch$/;"	i
+torch	infomax.py	/^import torch.nn as nn$/;"	i
+torch	infomax.py	/^import torch.nn.functional as F$/;"	i
+torch	miracle.py	/^import torch $/;"	i
+torch	model.py	/^import torch$/;"	i
+torch	model.py	/^import torch.nn as nn$/;"	i
+torch	model.py	/^import torch.nn.functional as F$/;"	i
+torch	qq/preprocess.py	/^import torch$/;"	i
+torch	qq/preprocess.py	/^import torch.nn as nn$/;"	i
+torch	qq/preprocess.py	/^import torch.nn.functional as F$/;"	i
+torch	train.py	/^import torch$/;"	i
+torch	train.py	/^import torch.nn as nn$/;"	i
+torch	train.py	/^import torch.nn.functional as F$/;"	i
+torch	train_ci.py	/^import torch$/;"	i
+torch	train_ci.py	/^import torch.nn as nn$/;"	i
+torch	train_ci.py	/^import torch.nn.functional as F$/;"	i
+torch	train_miracle.py	/^import torch$/;"	i
+torch	train_miracle.py	/^import torch.nn as nn$/;"	i
+torch	train_miracle.py	/^import torch.nn.functional as F$/;"	i
+torch	trainer.py	/^import torch$/;"	i
+tqdm	generator.py	/^from tqdm import tqdm $/;"	i
+tqdm	train_ci.py	/^from tqdm import tqdm$/;"	i
+train	train.py	/^def train(g, model, cl_model=None):$/;"	f
+train	train_ci.py	/^def train(g, model, train_mask, val_mask, test_mask, cl_model=None):$/;"	f
+train	train_miracle.py	/^def train(model, g):$/;"	f
+train_ci	train_ci.py	/^def train_ci(g, model, cl_model=None):$/;"	f
+trange	trainer.py	/^from tqdm import trange$/;"	i
+warnings	train.py	/^import warnings$/;"	i
+warnings	train_ci.py	/^import warnings$/;"	i
+weight	train.py	/^weight = 20.$/;"	v
+weight	train_ci.py	/^weight = 20.$/;"	v
+weight	train_miracle.py	/^weight = 20.$/;"	v
+weight_wavelet	create_wavelet.py	/^def weight_wavelet(s,lamb,U):$/;"	f
+weight_wavelet_inverse	create_wavelet.py	/^def weight_wavelet_inverse(s,lamb,U):$/;"	f
