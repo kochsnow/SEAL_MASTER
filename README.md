@@ -4,3 +4,4 @@ The pytorch implementation for Semi-Supervised Hierarchical Graph Classification
 In this repo, we release the code for arxiv dataset and qq dataset, which are implemented in the [pyg](https://pytorch-geometric.readthedocs.io/en/latest/) and [dgl](https://www.dgl.ai/) respectively and are in the directory of release code.
 
 ## requirement
+see the requirements.txt
