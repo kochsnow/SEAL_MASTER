@@ -11,7 +11,7 @@ cd arixv_pyg
 ```
 
 ## What is arxiv dataset.
-     ArXiv is an open-access repository of electronic preprints. We collect 4666 Computer Science (CS) arXiv papers in- dexed by Microsoft Academic Graph (MAG). These papers belong to five subject areas including AI, CL, IT, LG and CV. The arXiv papers data forms a citation network which indicates citation relationship. Each paper consists of two parts: title and abstract. The statistics of the arXiv paper dataset is listed in the following table:
+   ArXiv is an open-access repository of electronic preprints. We collect 4666 Computer Science (CS) arXiv papers in- dexed by Microsoft Academic Graph (MAG). These papers belong to five subject areas including AI, CL, IT, LG and CV. The arXiv papers data forms a citation network which indicates citation relationship. Each paper consists of two parts: title and abstract. The statistics of the arXiv paper dataset is listed in the following table:
 
 |Class|Number|Length of title|Length of abstract|
 |-----|------|---------------|------------------|
