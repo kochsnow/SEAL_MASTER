@@ -28,3 +28,11 @@ We obtain the hierarchical graph from the arXiv papers data as follows. The skel
 ![avatar](https://github.com/kochsnow/SEAL_MASTER/blob/main/release_code/arxiv_pyg/text_hg.png?raw=true)
 
 ## How to obtain arxiv dataset.
+Download zip file, unzip it at the directory of "data" and name as processed_arxiv_dataset.
+There are two directories at processed_arxiv_dataset including graphs and hyper_graph.
+The hyper_graph has two files indices.mat and macro_graph_edges.csv
+```
+indices.mat #indexs for split train, val and test set;
+macro_graph_edges.csv # citation network for the hierarchical graph.
+```
+The graphs includes 4666 json files, and each json file contains the nodes features and edge index list for each text graph instance.
