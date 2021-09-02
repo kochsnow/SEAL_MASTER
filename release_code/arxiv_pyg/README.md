@@ -23,6 +23,8 @@ ArXiv is an open-access repository of electronic preprints. We collect 4666 Comp
 
 
 We obtain the hierarchical graph from the arXiv papers data as follows. The skeleton (i.e., edges among graph instances) of the hierarchical graph is provided by citation relations between papers. Each graph instance is a textual graph instance constructed from paper’s textual context including its title and abstract. The following figure illustrates this hierarchical graph. More details can refer to our paper.
+
+
 ![avatar]()
 
 ## How to obtain arxiv dataset.
