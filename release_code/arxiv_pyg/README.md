@@ -30,9 +30,8 @@ We obtain the hierarchical graph from the arXiv papers data as follows. The skel
 ## How to obtain arxiv dataset.
 Download [zip file](), unzip it at the directory of "data" and name as processed_arxiv_dataset.
 There are two directories at processed_arxiv_dataset including graphs and hyper_graph.
-The hyper_graph has two files indices.mat and macro_graph_edges.csv
-```
-indices.mat #indexs for split train, val and test set;
-macro_graph_edges.csv # citation network for the hierarchical graph.
-```
-The graphs includes 4666 json files, and each json file contains the nodes features and edge index list for each text graph instance.
+
+The hyper_graph has two files indices.mat and macro_graph_edges.csv: indices.mat is used for split train, val and test set;
+macro_graph_edges.csv contains citation network for the hierarchical graph.
+
+The directory of graphs includes 4666 json files, and each json file contains the nodes features, edge index list and graph label for each text graph instance.
