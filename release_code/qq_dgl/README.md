@@ -1,11 +1,11 @@
 ## How to run
 For activate iteration
 ```
-python train_ai.py --dataset=qq_gc --model=seal --seed=2000 --alpha=0.005 --T=100 --B=500 --epoch=5
+python train_ai.py --dataset=qq_gc --model=seal --alpha=0.005 --T=100 --B=500 --epoch=5
 ```
 For cautious iteration
 ```
-python train_ci.py --dataset=qq_gc --model=seal --seed=2000 --alpha=0.005 --T=10 --lam=10 --epoch=5 
+python train_ci.py --dataset=qq_gc --model=seal  --alpha=0.005 --T=10 --lam=10 --epoch=5 
 ```
 ## what is qq group
 For details of qq group, you can see our [previous WWW2019 paper](https://arxiv.org/pdf/1904.05003.pdf) about hierchical grpah in the section 4.3
