@@ -14,7 +14,15 @@ For details of qq group, you can see our [previous WWW2019 paper](https://arxiv.
 ## How to obtian qq group data
 we can obtain the qq group data from [here](https://drive.google.com/drive/folders/1kDF1WxwbWT0bALX1corEW5uql7mUyZJ7?usp=sharing)
 There are five files which are all Pickle files:
-group_feature_without_zero: list of array, and each array consist of 10-dim user features for one qq group;
-group_tuopu_without_zero: list of sparse array, and each sparse array represent edges of one qq group graph instance;
-ind.group.graph: it contains the topology information of hierarchical graph, and each node in hierarchical graph is the qq group. 
-ind.group.ally: it contains the label information of nodes in the hierarchical graph. And there are two category for qq group including game and non-game.
+```
+# list of array, and each array consist of 10-dim user features for one qq group;
+group_feature_without_zero
+# list of sparse array, and each sparse array represent edges of one qq group graph instance;
+group_tuopu_without_zero
+# it contains the topology information of hierarchical graph, and each node in hierarchical graph is the qq group
+ind.group.graph
+# it contains all label information of all nodes in the hierarchical graph. And there are two category for qq group including game and non-game.
+ind.group.ally
+# it contains label information of nodes for test in the hierarchical graph. 
+ind.group.ally
+```
