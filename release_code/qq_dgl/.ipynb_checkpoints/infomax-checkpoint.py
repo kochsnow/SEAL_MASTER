@@ -161,9 +161,9 @@ class GcnInfoMax(torch.nn.Module):
         self.global_d = FF_global(self.embedding_dim)
 
     def forward(self, global_embeddings, loc_embeddings, adj_tensor, num_drugs):
-        #利用MLP做维度变换
-        g_enc = self.global_d(global_embeddings)#20*30
-        l_enc = self.local_d(loc_embeddings)#20*40
+    
+        g_enc = self.global_d(global_embeddings)
+        l_enc = self.local_d(loc_embeddings)
         measure = 'JSD' # ['GAN', 'JSD', 'X2', 'KL', 'RKL', 'DV', 'H2', 'W1']
         local_global_loss = local_global_drug_loss_(l_enc, g_enc, adj_tensor, num_drugs, measure, self.device)
         eps = 1e-5
